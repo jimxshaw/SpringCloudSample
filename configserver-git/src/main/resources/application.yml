@@ -9,3 +9,12 @@ spring:
           uri: https://github.com/jimxshaw/tx-tolls
           #username: name
           #password: pass
+          search-paths:
+            - 'station*'
+          repos:
+            perf:
+              pattern:
+                - '*/perf'
+              uri: https://github.com/jimxshaw/tx-tolls-perf
+              search-paths:
+                - 'station*'
